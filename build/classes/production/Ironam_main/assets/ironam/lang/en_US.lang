@@ -1,0 +1,13 @@
+
+#Items
+item.materialEctoplasm.name=Ectoplasm
+item.materialEctoball.name=Ectoplasmic Shard
+item.itemBinder.name=Binder
+item.materialPureEctoplasm.name=Pure Ectoplasm
+item.materialSpiritDiamond.name=Spirit Diamond
+item.materialSpiritIron.name=Spirit Iron
+item.material.SpiritGold.name=Spirit Gold
+
+
+#Blocks
+tile.blockEcto.name=Ectoplasmic Block

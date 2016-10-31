@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ironam",
+  "name": "Ironam",
+  "description": "Tech, magic, spirits, and more!",
+  "version": "${VERSION}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Auri"],
+  "credits": "Forge team for the library, shadowfacts.com for a helpful tutorial",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
