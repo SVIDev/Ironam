@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ironam.iml" filepath="$PROJECT_DIR$/.idea/modules/Ironam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ironam_api.iml" filepath="$PROJECT_DIR$/.idea/modules/Ironam_api.iml" group="Ironam" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ironam_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Ironam_main.iml" group="Ironam" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ironam_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Ironam_test.iml" group="Ironam" />
+    </modules>
+  </component>
+</project>

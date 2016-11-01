@@ -1,64 +1,65 @@
-[14:59:26] [main/INFO]: Extra: []
-[14:59:26] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, /Users/1800855/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --accessToken{REDACTED}, --version, 1.10.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[14:59:26] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[14:59:26] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[14:59:26] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[14:59:26] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[14:59:26] [main/INFO]: Forge Mod Loader version 12.18.2.2107 for Minecraft 1.10.2 loading
-[14:59:26] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_101, running on Mac OS X:x86_64:10.11.6, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre
-[14:59:26] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[14:59:26] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[14:59:26] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[14:59:26] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[14:59:26] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:59:26] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[14:59:26] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[14:59:26] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:59:26] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[14:59:26] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:59:26] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[14:59:28] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[14:59:28] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[14:59:28] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[14:59:29] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[14:59:29] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[14:59:29] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[14:59:29] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[14:59:31] [Client thread/INFO]: Setting user: Player211
-[14:59:40] [Client thread/INFO]: LWJGL Version: 2.9.2
-[14:59:41] [Client thread/INFO]: MinecraftForge v12.18.2.2107 Initialized
-[14:59:42] [Client thread/INFO]: Replaced 232 ore recipes
-[14:59:42] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
-[14:59:42] [Client thread/INFO]: Searching /Users/1800855/Desktop/Ironam/run/mods for mods
-[14:59:46] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
-[14:59:46] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, ironam] at CLIENT
-[14:59:46] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, ironam] at SERVER
-[14:59:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Ironam
-[14:59:47] [Client thread/INFO]: Processing ObjectHolder annotations
-[14:59:47] [Client thread/INFO]: Found 423 ObjectHolder annotations
-[14:59:47] [Client thread/INFO]: Identifying ItemStackHolder annotations
-[14:59:47] [Client thread/INFO]: Found 0 ItemStackHolder annotations
-[14:59:47] [Client thread/INFO]: Applying holder lookups
-[14:59:47] [Client thread/INFO]: Holder lookups applied
-[14:59:47] [Client thread/INFO]: Applying holder lookups
-[14:59:47] [Client thread/INFO]: Holder lookups applied
-[14:59:47] [Client thread/INFO]: Applying holder lookups
-[14:59:47] [Client thread/INFO]: Holder lookups applied
-[14:59:47] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[14:59:47] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[14:59:47] [Client thread/INFO]: Applying holder lookups
-[14:59:47] [Client thread/INFO]: Holder lookups applied
-[14:59:47] [Client thread/INFO]: Injecting itemstacks
-[14:59:47] [Client thread/INFO]: Itemstack injection complete
-[14:59:47] [Forge Version Check/INFO]: [Forge] Found status: OUTDATED Target: 12.18.2.2116
-[14:59:50] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[14:59:50] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[14:59:50] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[14:59:50] [Thread-6/INFO]: OpenAL initialized.
-[14:59:50] [Sound Library Loader/INFO]: Sound engine started
-[14:59:54] [Client thread/INFO]: Max texture size: 16384
-[14:59:54] [Client thread/INFO]: Created: 16x16 textures-atlas
-[14:59:55] [Client thread/ERROR]: Exception loading model for variant ironam:blockEcto#normal for blockstate "ironam:blockEcto"
+[14:43:08] [main/INFO]: Extra: []
+[14:43:08] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, /Users/1800855/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --accessToken{REDACTED}, --version, 1.10.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[14:43:08] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:43:08] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:43:08] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[14:43:08] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[14:43:08] [main/INFO]: Forge Mod Loader version 12.18.2.2107 for Minecraft 1.10.2 loading
+[14:43:08] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_101, running on Mac OS X:x86_64:10.11.6, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre
+[14:43:08] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[14:43:08] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[14:43:08] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[14:43:08] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[14:43:08] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:43:08] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:43:08] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[14:43:08] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:43:08] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:43:08] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:43:08] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[14:43:10] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[14:43:10] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:43:10] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:43:10] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[14:43:10] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:43:10] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:43:10] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[14:43:12] [Client thread/INFO]: Setting user: Player488
+[14:43:17] [Client thread/INFO]: LWJGL Version: 2.9.2
+[14:43:18] [Client thread/INFO]: MinecraftForge v12.18.2.2107 Initialized
+[14:43:18] [Client thread/INFO]: Replaced 232 ore recipes
+[14:43:18] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[14:43:18] [Client thread/INFO]: Searching /Users/1800855/Desktop/Ironam/run/mods for mods
+[14:43:20] [Client thread/INFO]: Mod ironam is missing the required element 'name'. Substituting ironam
+[14:43:21] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[14:43:22] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, ironam] at CLIENT
+[14:43:22] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, ironam] at SERVER
+[14:43:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:ironam
+[14:43:22] [Client thread/INFO]: Processing ObjectHolder annotations
+[14:43:22] [Client thread/INFO]: Found 423 ObjectHolder annotations
+[14:43:22] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[14:43:22] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[14:43:22] [Client thread/INFO]: Applying holder lookups
+[14:43:22] [Client thread/INFO]: Holder lookups applied
+[14:43:22] [Client thread/INFO]: Applying holder lookups
+[14:43:22] [Client thread/INFO]: Holder lookups applied
+[14:43:22] [Client thread/INFO]: Applying holder lookups
+[14:43:22] [Client thread/INFO]: Holder lookups applied
+[14:43:23] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[14:43:23] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[14:43:23] [Forge Version Check/INFO]: [Forge] Found status: OUTDATED Target: 12.18.2.2117
+[14:43:23] [Client thread/INFO]: Applying holder lookups
+[14:43:23] [Client thread/INFO]: Holder lookups applied
+[14:43:23] [Client thread/INFO]: Injecting itemstacks
+[14:43:23] [Client thread/INFO]: Itemstack injection complete
+[14:43:25] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:43:25] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[14:43:25] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:43:25] [Thread-6/INFO]: OpenAL initialized.
+[14:43:25] [Sound Library Loader/INFO]: Sound engine started
+[14:43:27] [Client thread/INFO]: Max texture size: 16384
+[14:43:27] [Client thread/INFO]: Created: 16x16 textures-atlas
+[14:43:29] [Client thread/ERROR]: Exception loading model for variant ironam:blockEcto#normal for blockstate "ironam:blockEcto"
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ironam:blockEcto#normal with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:241) ~[ModelLoader.class:?]
@@ -92,7 +93,7 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 26 more
-[14:59:55] [Client thread/ERROR]: Exception loading blockstate for the variant ironam:blockEcto#normal: 
+[14:43:29] [Client thread/ERROR]: Exception loading blockstate for the variant ironam:blockEcto#normal: 
 java.lang.Exception: Could not load model definition for variant ironam:blockEcto
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:274) ~[ModelLoader.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
@@ -126,13 +127,12 @@ Caused by: java.lang.RuntimeException: Encountered an exception when loading mod
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:270) ~[ModelLoader.class:?]
 	... 25 more
 Caused by: java.io.FileNotFoundException: ironam:blockstates/blockEcto.json
-	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:103) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:83) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:198) ~[ModelBakery.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:185) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:270) ~[ModelLoader.class:?]
 	... 25 more
-[14:59:55] [Client thread/ERROR]: Exception loading model for variant ironam:itemBinder#inventory for item "ironam:itemBinder", normal location exception: 
+[14:43:29] [Client thread/ERROR]: Exception loading model for variant ironam:itemBinder#inventory for item "ironam:itemBinder", normal location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ironam:item/itemBinder with loader VanillaLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:317) ~[ModelLoader.class:?]
@@ -161,14 +161,13 @@ net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception l
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_101]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147) [idea_rt.jar:?]
 Caused by: java.io.FileNotFoundException: ironam:models/item/itemBinder.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:68) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:69) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:311) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.access$1100(ModelLoader.java:118) ~[ModelLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:868) ~[ModelLoader$VanillaLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 25 more
-[14:59:55] [Client thread/ERROR]: Exception loading model for variant ironam:itemBinder#inventory for item "ironam:itemBinder", blockstate location exception: 
+[14:43:29] [Client thread/ERROR]: Exception loading model for variant ironam:itemBinder#inventory for item "ironam:itemBinder", blockstate location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ironam:itemBinder#inventory with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:325) ~[ModelLoader.class:?]
@@ -201,7 +200,7 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 25 more
-[14:59:55] [Client thread/ERROR]: Exception loading model for variant ironam:materialEctoplasm#inventory for item "ironam:materialEctoplasm", normal location exception: 
+[14:43:29] [Client thread/ERROR]: Exception loading model for variant ironam:materialEctoplasm#inventory for item "ironam:materialEctoplasm", normal location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ironam:item/materialEctoplasm with loader VanillaLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:317) ~[ModelLoader.class:?]
@@ -230,14 +229,13 @@ net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception l
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_101]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147) [idea_rt.jar:?]
 Caused by: java.io.FileNotFoundException: ironam:models/item/materialEctoplasm.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:68) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:69) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:311) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.access$1100(ModelLoader.java:118) ~[ModelLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:868) ~[ModelLoader$VanillaLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 25 more
-[14:59:55] [Client thread/ERROR]: Exception loading model for variant ironam:materialEctoplasm#inventory for item "ironam:materialEctoplasm", blockstate location exception: 
+[14:43:29] [Client thread/ERROR]: Exception loading model for variant ironam:materialEctoplasm#inventory for item "ironam:materialEctoplasm", blockstate location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ironam:materialEctoplasm#inventory with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:325) ~[ModelLoader.class:?]
@@ -270,7 +268,7 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 25 more
-[14:59:55] [Client thread/ERROR]: Exception loading model for variant ironam:materialSpiritGold#inventory for item "ironam:materialSpiritGold", normal location exception: 
+[14:43:29] [Client thread/ERROR]: Exception loading model for variant ironam:materialSpiritGold#inventory for item "ironam:materialSpiritGold", normal location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ironam:item/materialSpiritGold with loader VanillaLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:317) ~[ModelLoader.class:?]
@@ -299,14 +297,13 @@ net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception l
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_101]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147) [idea_rt.jar:?]
 Caused by: java.io.FileNotFoundException: ironam:models/item/materialSpiritGold.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:68) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:69) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:311) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.access$1100(ModelLoader.java:118) ~[ModelLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:868) ~[ModelLoader$VanillaLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 25 more
-[14:59:55] [Client thread/ERROR]: Exception loading model for variant ironam:materialSpiritGold#inventory for item "ironam:materialSpiritGold", blockstate location exception: 
+[14:43:29] [Client thread/ERROR]: Exception loading model for variant ironam:materialSpiritGold#inventory for item "ironam:materialSpiritGold", blockstate location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ironam:materialSpiritGold#inventory with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:325) ~[ModelLoader.class:?]
@@ -339,21 +336,21 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 25 more
-[14:59:55] [Client thread/ERROR]: Suppressed additional 4 model loading errors for domain ironam
-[14:59:56] [Client thread/INFO]: Injecting itemstacks
-[14:59:56] [Client thread/INFO]: Itemstack injection complete
-[14:59:56] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
-[14:59:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Ironam
-[14:59:59] [Client thread/INFO]: SoundSystem shutting down...
-[15:00:00] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[15:00:00] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[15:00:00] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[15:00:00] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[15:00:00] [Thread-8/INFO]: OpenAL initialized.
-[15:00:00] [Sound Library Loader/INFO]: Sound engine started
-[15:00:02] [Client thread/INFO]: Max texture size: 16384
-[15:00:03] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[15:00:04] [Client thread/ERROR]: Exception loading model for variant ironam:blockEcto#normal for blockstate "ironam:blockEcto"
+[14:43:29] [Client thread/ERROR]: Suppressed additional 4 model loading errors for domain ironam
+[14:43:30] [Client thread/INFO]: Injecting itemstacks
+[14:43:30] [Client thread/INFO]: Itemstack injection complete
+[14:43:30] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[14:43:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:ironam
+[14:43:31] [Client thread/INFO]: SoundSystem shutting down...
+[14:43:31] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:43:31] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:43:32] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[14:43:32] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:43:32] [Thread-8/INFO]: OpenAL initialized.
+[14:43:32] [Sound Library Loader/INFO]: Sound engine started
+[14:43:34] [Client thread/INFO]: Max texture size: 16384
+[14:43:34] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[14:43:35] [Client thread/ERROR]: Exception loading model for variant ironam:blockEcto#normal for blockstate "ironam:blockEcto"
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ironam:blockEcto#normal with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:241) ~[ModelLoader.class:?]
@@ -390,7 +387,7 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 29 more
-[15:00:04] [Client thread/ERROR]: Exception loading blockstate for the variant ironam:blockEcto#normal: 
+[14:43:35] [Client thread/ERROR]: Exception loading blockstate for the variant ironam:blockEcto#normal: 
 java.lang.Exception: Could not load model definition for variant ironam:blockEcto
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:274) ~[ModelLoader.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
@@ -427,13 +424,12 @@ Caused by: java.lang.RuntimeException: Encountered an exception when loading mod
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:270) ~[ModelLoader.class:?]
 	... 28 more
 Caused by: java.io.FileNotFoundException: ironam:blockstates/blockEcto.json
-	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:103) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:83) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:198) ~[ModelBakery.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:185) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:270) ~[ModelLoader.class:?]
 	... 28 more
-[15:00:04] [Client thread/ERROR]: Exception loading model for variant ironam:itemBinder#inventory for item "ironam:itemBinder", normal location exception: 
+[14:43:35] [Client thread/ERROR]: Exception loading model for variant ironam:itemBinder#inventory for item "ironam:itemBinder", normal location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ironam:item/itemBinder with loader VanillaLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:317) ~[ModelLoader.class:?]
@@ -465,14 +461,13 @@ net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception l
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_101]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147) [idea_rt.jar:?]
 Caused by: java.io.FileNotFoundException: ironam:models/item/itemBinder.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:68) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:69) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:311) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.access$1100(ModelLoader.java:118) ~[ModelLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:868) ~[ModelLoader$VanillaLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 28 more
-[15:00:04] [Client thread/ERROR]: Exception loading model for variant ironam:itemBinder#inventory for item "ironam:itemBinder", blockstate location exception: 
+[14:43:35] [Client thread/ERROR]: Exception loading model for variant ironam:itemBinder#inventory for item "ironam:itemBinder", blockstate location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ironam:itemBinder#inventory with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:325) ~[ModelLoader.class:?]
@@ -508,7 +503,7 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 28 more
-[15:00:04] [Client thread/ERROR]: Exception loading model for variant ironam:materialEctoplasm#inventory for item "ironam:materialEctoplasm", normal location exception: 
+[14:43:35] [Client thread/ERROR]: Exception loading model for variant ironam:materialEctoplasm#inventory for item "ironam:materialEctoplasm", normal location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ironam:item/materialEctoplasm with loader VanillaLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:317) ~[ModelLoader.class:?]
@@ -540,14 +535,13 @@ net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception l
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_101]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147) [idea_rt.jar:?]
 Caused by: java.io.FileNotFoundException: ironam:models/item/materialEctoplasm.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:68) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:69) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:311) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.access$1100(ModelLoader.java:118) ~[ModelLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:868) ~[ModelLoader$VanillaLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 28 more
-[15:00:04] [Client thread/ERROR]: Exception loading model for variant ironam:materialEctoplasm#inventory for item "ironam:materialEctoplasm", blockstate location exception: 
+[14:43:35] [Client thread/ERROR]: Exception loading model for variant ironam:materialEctoplasm#inventory for item "ironam:materialEctoplasm", blockstate location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ironam:materialEctoplasm#inventory with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:325) ~[ModelLoader.class:?]
@@ -583,7 +577,7 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 28 more
-[15:00:04] [Client thread/ERROR]: Exception loading model for variant ironam:materialSpiritGold#inventory for item "ironam:materialSpiritGold", normal location exception: 
+[14:43:35] [Client thread/ERROR]: Exception loading model for variant ironam:materialSpiritGold#inventory for item "ironam:materialSpiritGold", normal location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ironam:item/materialSpiritGold with loader VanillaLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:317) ~[ModelLoader.class:?]
@@ -615,14 +609,13 @@ net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception l
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_101]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147) [idea_rt.jar:?]
 Caused by: java.io.FileNotFoundException: ironam:models/item/materialSpiritGold.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:68) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:69) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:311) ~[ModelBakery.class:?]
 	at net.minecraftforge.client.model.ModelLoader.access$1100(ModelLoader.java:118) ~[ModelLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:868) ~[ModelLoader$VanillaLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 28 more
-[15:00:04] [Client thread/ERROR]: Exception loading model for variant ironam:materialSpiritGold#inventory for item "ironam:materialSpiritGold", blockstate location exception: 
+[14:43:35] [Client thread/ERROR]: Exception loading model for variant ironam:materialSpiritGold#inventory for item "ironam:materialSpiritGold", blockstate location exception: 
 net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model ironam:materialSpiritGold#inventory with loader VariantLoader.INSTANCE, skipping
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
 	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:325) ~[ModelLoader.class:?]
@@ -658,21 +651,21 @@ Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$Missin
 	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1184) ~[ModelLoader$VariantLoader.class:?]
 	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
 	... 28 more
-[15:00:04] [Client thread/ERROR]: Suppressed additional 4 model loading errors for domain ironam
-[15:00:11] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
-[15:00:11] [Server thread/INFO]: Generating keypair
-[15:00:11] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[15:00:11] [Server thread/INFO]: Applying holder lookups
-[15:00:11] [Server thread/INFO]: Holder lookups applied
-[15:00:11] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@239e0f10)
-[15:00:12] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@239e0f10)
-[15:00:12] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@239e0f10)
-[15:00:12] [Server thread/INFO]: Preparing start region for level 0
-[15:00:13] [Server thread/INFO]: Preparing spawn area: 0%
-[15:00:14] [Server thread/INFO]: Preparing spawn area: 15%
-[15:00:15] [Server thread/INFO]: Preparing spawn area: 49%
-[15:00:16] [Server thread/INFO]: Changing view distance to 12, from 10
-[15:00:17] [Client thread/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@290f0d98[id=da0854f1-946e-3e92-942a-afd6fa88ef77,name=Player211,properties={},legacy=false]
+[14:43:35] [Client thread/ERROR]: Suppressed additional 4 model loading errors for domain ironam
+[14:43:44] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
+[14:43:44] [Server thread/INFO]: Generating keypair
+[14:43:44] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[14:43:44] [Server thread/INFO]: Applying holder lookups
+[14:43:44] [Server thread/INFO]: Holder lookups applied
+[14:43:44] [Server thread/INFO]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@5b46c1)
+[14:43:45] [Server thread/INFO]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@5b46c1)
+[14:43:45] [Server thread/INFO]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@5b46c1)
+[14:43:45] [Server thread/INFO]: Preparing start region for level 0
+[14:43:46] [Server thread/INFO]: Preparing spawn area: 1%
+[14:43:47] [Server thread/INFO]: Preparing spawn area: 38%
+[14:43:48] [Server thread/INFO]: Preparing spawn area: 83%
+[14:43:48] [Server thread/INFO]: Changing view distance to 12, from 10
+[14:43:50] [Client thread/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@33ca22e1[id=9aff406e-3282-3c93-8c5e-62214f4adca0,name=Player488,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:71) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
@@ -793,18 +786,19 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:126) ~[HttpAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:54) ~[YggdrasilAuthenticationService.class:?]
 	... 33 more
-[15:00:17] [Netty Local Client IO #0/INFO]: Server protocol version 2
-[15:00:17] [Netty Server IO #1/INFO]: Client protocol version 2
-[15:00:17] [Netty Server IO #1/INFO]: Client attempting to join with 4 mods : ironam@1.0,FML@8.0.99.99,Forge@12.18.2.2107,mcp@9.19
-[15:00:17] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
-[15:00:17] [Server thread/INFO]: [Server thread] Server side modded connection established
-[15:00:18] [Server thread/INFO]: Player211[local:E:c6d1e497] logged in with entity id 203 at (645.313827200251, 63.0, -324.16688224911735)
-[15:00:18] [Server thread/INFO]: Player211 joined the game
-[15:00:19] [Server thread/INFO]: Saving and pausing game...
-[15:00:19] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[15:00:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[15:00:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[15:00:20] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@346ed72e[id=da0854f1-946e-3e92-942a-afd6fa88ef77,name=Player211,properties={},legacy=false]
+[14:43:50] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[14:43:50] [Netty Server IO #1/INFO]: Client protocol version 2
+[14:43:50] [Netty Server IO #1/INFO]: Client attempting to join with 4 mods : ironam@1.0,FML@8.0.99.99,Forge@12.18.2.2107,mcp@9.19
+[14:43:50] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[14:43:50] [Server thread/INFO]: [Server thread] Server side modded connection established
+[14:43:50] [Server thread/INFO]: Player488[local:E:9dae6a6f] logged in with entity id 199 at (645.313827200251, 63.0, -324.16688224911735)
+[14:43:50] [Server thread/INFO]: Player488 joined the game
+[14:43:52] [Server thread/INFO]: Saving and pausing game...
+[14:43:52] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:43:52] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:43:52] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:43:52] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2501ms behind, skipping 50 tick(s)
+[14:43:53] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@4d3a41cd[id=9aff406e-3282-3c93-8c5e-62214f4adca0,name=Player488,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationUnavailableException: Cannot contact authentication server
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:71) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
@@ -911,23 +905,21 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 	at com.mojang.authlib.HttpAuthenticationService.performGetRequest(HttpAuthenticationService.java:126) ~[HttpAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:54) ~[YggdrasilAuthenticationService.class:?]
 	... 19 more
-[15:00:23] [Server thread/INFO]: Player211 has just earned the achievement [Taking Inventory]
-[15:00:23] [Client thread/INFO]: [CHAT] Player211 has just earned the achievement [Taking Inventory]
-[15:00:40] [Server thread/INFO]: Saving and pausing game...
-[15:00:40] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[15:00:40] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[15:00:40] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[15:00:41] [Server thread/INFO]: Stopping server
-[15:00:41] [Server thread/INFO]: Saving players
-[15:00:41] [Server thread/INFO]: Saving worlds
-[15:00:41] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[15:00:41] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[15:00:41] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[15:00:41] [Server thread/INFO]: Unloading dimension 0
-[15:00:41] [Server thread/INFO]: Unloading dimension -1
-[15:00:41] [Server thread/INFO]: Unloading dimension 1
-[15:00:42] [Server thread/INFO]: Applying holder lookups
-[15:00:42] [Server thread/INFO]: Holder lookups applied
-[15:00:43] [Client thread/INFO]: Stopping!
-[15:00:43] [Client thread/INFO]: SoundSystem shutting down...
-[15:00:43] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:44:01] [Server thread/INFO]: Saving and pausing game...
+[14:44:01] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:44:01] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:44:01] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:44:02] [Server thread/INFO]: Stopping server
+[14:44:02] [Server thread/INFO]: Saving players
+[14:44:02] [Server thread/INFO]: Saving worlds
+[14:44:02] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:44:02] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:44:02] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:44:03] [Server thread/INFO]: Unloading dimension 0
+[14:44:03] [Server thread/INFO]: Unloading dimension -1
+[14:44:03] [Server thread/INFO]: Unloading dimension 1
+[14:44:04] [Server thread/INFO]: Applying holder lookups
+[14:44:04] [Server thread/INFO]: Holder lookups applied
+[14:44:05] [Client thread/INFO]: Stopping!
+[14:44:05] [Client thread/INFO]: SoundSystem shutting down...
+[14:44:05] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
